@@ -19,7 +19,7 @@ public class TrainControllerImpl implements TrainController {
 						thread.sleep(1000);
 						followSpeed();
 					} catch (InterruptedException e) {
-						e.printStackTrace();
+						e.printStackTrace(); 
 					} 
 				} 
 		};
